@@ -1,0 +1,135 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #efefef;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* NAVBAR */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 50px;
+  background: #fff;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  position: sticky;
+  top: 0;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+/* HERO */
+
+.hero {
+  background: url('https://images.unsplash.com/photo-1620309163483-7184c639a987?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80') no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  padding-left: 75px;
+  padding-bottom: 50px;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 4rem;
+}
+
+.hero p {
+  font-size: 1.5rem;
+}
+
+/* MAIN */
+
+.main {
+  background-color: #fff;
+  border-radius: 3px;
+  margin: 50px;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  padding: 50px;
+}
+
+.main p {
+  width: 300px;
+  margin-top: 25px;
+}
+
+.text {
+  margin: 50px;
+}
+
+.feeling-form {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.feeling-form input,
+.feeling-form textarea {
+  padding: 20px 25px;
+  outline: none;
+  font-size: large;
+  border: 3.5px solid #e7e7e7;
+  letter-spacing: 1px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 25px 0;
+  width: 500px;
+}
+
+.feeling-form input:focus,
+.feeling-form textarea:focus {
+  border-color: #f8bba2;
+}
+
+/* UTILITY CLASSES */
+
+.remove-list-style {
+  list-style: none;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ml-0 {
+    margin-left: 0;
+}
+
+.mr-0 {
+    margin-right: 0;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+/* MEDIA QUERRIES */
+
+/* @media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+} */
