@@ -16,13 +16,13 @@
 
     <!-- <meta name="twitter:card" content=""> -->
 
-    <script src="https://kit.fontawesome.com/ff40ef3d82.js" crossorigin="anonymous"></script>
-
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet"/>
 
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
     <link rel="stylesheet" href="global.css">
+
+    <script src="https://kit.fontawesome.com/42509ed0ff.js" crossorigin="anonymous"></script>
 
     <title>SHARE YOUR FEELINGS</title>
 
@@ -30,8 +30,8 @@
 <body>
 
     <nav class="navbar">
-        <h1>ShareAFeeling</h1>
-        <i class="fa-solid fa-bars"></i>
+        <a href="index.html"><h1>ShareAFeeling</h1></a>
+        <i style="font-size: 1.5rem;" class="fa-solid fa-bars"></i>
     </nav>
 
     <section class="hero">
@@ -46,6 +46,16 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ut saepe culpa officiis! Unde fugit cumque voluptatum vel, autem officia!!</p>
             </div>
             <form class="feeling-form">
+                <label for="mood">How Are You Feeling</label>
+                <div id="mood">
+                <i style="margin-left: 0; color: red;" class="fa-solid fa-face-angry"></i>
+                <i style="color: #00be00;" class="fa-solid fa-face-smile"></i>
+                <i style="color: skyblue;" class="fa-solid fa-face-frown"></i>
+                <i style="color: lightgreen;" class="fa-solid fa-face-persevering"></i>
+                <i style="color: #d8d83a;" class="fa-solid fa-face-sad-tear"></i>
+                <i style="color: purple;" class="fa-solid fa-face-tired"></i>
+                <i style="color: #ffa1b1;" class="fa-solid fa-face-grin-hearts"></i>
+                </div>
                 <label for="title">Name Your Feeling</label>
                 <input type="text" id="title" placeholder="Enter title for your feelings">
                 <label for="feelings">Express Your Feelings</label>
