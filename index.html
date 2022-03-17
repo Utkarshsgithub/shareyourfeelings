@@ -48,13 +48,12 @@
             <form class="feeling-form">
                 <label for="mood">How Are You Feeling</label>
                 <div id="mood">
-                <i style="margin-left: 0; color: red;" class="fa-solid fa-face-angry"></i>
-                <i style="color: #00be00;" class="fa-solid fa-face-smile"></i>
-                <i style="color: skyblue;" class="fa-solid fa-face-frown"></i>
-                <!-- <i style="color: lightgreen;" class="fa-solid fa-face-persevering"></i> -->
-                <i style="color: #d8d83a;" class="fa-solid fa-face-sad-tear"></i>
-                <i style="color: purple;" class="fa-solid fa-face-tired"></i>
-                <i style="color: #ffa1b1;" class="fa-solid fa-face-grin-hearts"></i>
+                    <i id="angry" onclick="moodClicked(this)" style="margin-left: 0; color: red;" class="fa-regular fa-face-angry"></i>
+                    <i id="happy" onclick="moodClicked(this)" style="color: #00be00;" class="fa-regular fa-face-smile"></i>
+                    <i id="sad" onclick="moodClicked(this)" style="color: skyblue;" class="fa-regular fa-face-frown"></i>
+                    <i id="crying" onclick="moodClicked(this)" style="color: #d8d83a;" class="fa-regular fa-face-sad-tear"></i>
+                    <i id="upset" onclick="moodClicked(this)" style="color: purple;" class="fa-regular fa-face-tired"></i>
+                    <i id="love" onclick="moodClicked(this)" style="color: #ffa1b1;" class="fa-regular fa-face-grin-hearts"></i>
                 </div>
                 <label for="title">Name Your Feeling</label>
                 <input type="text" id="title" placeholder="Enter title for your feelings">
@@ -65,7 +64,7 @@
         </section>
     </div>
 
-    <!-- <script src="master.js"></script> -->
+    <script src="master.js"></script>
 
 </body>
 </html>
