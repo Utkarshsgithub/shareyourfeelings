@@ -44,7 +44,7 @@
         <section class="main">
             <div class="text">
                 <h1>Your Feelings Matter</h1>
-                <p>
+                <p id="spcl">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ut
                     saepe culpa officiis! Unde fugit cumque voluptatum vel, autem
                     officia!!
@@ -53,25 +53,54 @@
             <form class="feeling-form">
                 <label for="mood">How Are You Feeling</label>
                 <div id="mood">
-                    <div>
-                        <i id="angry" onclick="moodClicked(this)" style="margin-left: 0; color: red"
-                            class="fa-regular fa-face-angry"></i>
-                        <i id="happy" onclick="moodClicked(this)" style="color: #00be00"
-                            class="fa-regular fa-face-smile"></i>
-                        <i id="sad" onclick="moodClicked(this)" style="color: skyblue"
-                            class="fa-regular fa-face-frown"></i>
-                        <i id="frustrated" onclick="moodClicked(this)" style="color: blueviolet"
-                            class="fa-regular fa-face-dizzy"></i>
+                    <div class="flex">
+                        <div class="emoji">
+                            <i id="angry" onclick="moodClicked(this)" style="margin-left: 0; color: red"
+                                class="fa-regular fa-face-angry"></i>
+                            <p>angry</p>
+                        </div>
+
+                        <div class="emoji">
+                            <i id="happy" onclick="moodClicked(this)" style="color: #00be00"
+                                class="fa-regular fa-face-smile"></i>
+                            <p>happy</p>
+                        </div>
+
+                        <div class="emoji">
+                            <i id="sad" onclick="moodClicked(this)" style="color: skyblue"
+                                class="fa-regular fa-face-frown"></i>
+                            <p>sad</p>
+                        </div>
+
+                        <div class="emoji">
+                            <i id="frustrated" onclick="moodClicked(this)" style="color: blueviolet"
+                                class="fa-regular fa-face-dizzy"></i>
+                            <p>frustrated</p>
+                        </div>
                     </div>
                     <div>
-                        <i id="crying" onclick="moodClicked(this)" style="margin-left: 0; color: #d8d83a"
-                            class="fa-regular fa-face-sad-tear"></i>
-                        <i id="upset" onclick="moodClicked(this)" style="color: purple"
-                            class="fa-regular fa-face-tired"></i>
-                        <i id="annoyed" onclick="moodClicked(this)" style="color: darkgreen"
-                            class="fa-regular fa-face-meh"></i>
-                        <i id="love" onclick="moodClicked(this)" style="color: #ffa1b1"
-                            class="fa-regular fa-face-grin-hearts"></i>
+                        <div style="margin-top: 25px;" class="flex">
+                            <div class="emoji">
+                                <i id="crying" onclick="moodClicked(this)" style="margin-left: 0; color: #d8d83a"
+                                    class="fa-regular fa-face-sad-tear"></i>
+                                    <p>crying</p>
+                            </div>
+                            <div class="emoji">
+                                <i id="upset" onclick="moodClicked(this)" style="color: purple"
+                                    class="fa-regular fa-face-tired"></i>
+                                    <p>upset</p>
+                            </div>
+                            <div class="emoji">
+                                <i id="annoyed" onclick="moodClicked(this)" style="color: darkgreen"
+                                    class="fa-regular fa-face-meh"></i>
+                                    <p>annoyed</p>
+                            </div>
+                            <div class="emoji">
+                                <i id="love" onclick="moodClicked(this)" style="color: #ffa1b1"
+                                    class="fa-regular fa-face-grin-hearts"></i>
+                                    <p>love</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <label for="title">Name Your Feeling</label>
