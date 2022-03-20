@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <meta charset="UTF-8" />
 
-    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- <meta property="og:image" content=""> -->
 
@@ -16,22 +16,23 @@
 
     <!-- <meta name="twitter:card" content=""> -->
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet" />
 
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
-    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="global.css" />
 
     <script src="https://kit.fontawesome.com/42509ed0ff.js" crossorigin="anonymous"></script>
 
     <title>SHARE YOUR FEELINGS</title>
-
 </head>
-<body>
 
+<body>
     <nav class="navbar">
-        <a href="index.html"><h1>ShareAFeeling</h1></a>
-        <i style="font-size: 1.5rem;" class="fa-solid fa-bars"></i>
+        <a href="index.html">
+            <h1>ShareAFeeling</h1>
+        </a>
+        <i style="font-size: 1.5rem" class="fa-solid fa-bars"></i>
     </nav>
 
     <section class="hero">
@@ -43,31 +44,47 @@
         <section class="main">
             <div class="text">
                 <h1>Your Feelings Matter</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ut saepe culpa officiis! Unde fugit cumque voluptatum vel, autem officia!!</p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ut
+                    saepe culpa officiis! Unde fugit cumque voluptatum vel, autem
+                    officia!!
+                </p>
             </div>
             <form class="feeling-form">
                 <label for="mood">How Are You Feeling</label>
                 <div id="mood">
-                    <i id="angry" onclick="moodClicked(this)" style="margin-left: 0; color: red;" class="fa-regular fa-face-angry"></i>
-                    <i id="happy" onclick="moodClicked(this)" style="color: #00be00;" class="fa-regular fa-face-smile"></i>
-                    <i id="sad" onclick="moodClicked(this)" style="color: skyblue;" class="fa-regular fa-face-frown"></i>
-                    <i id="frustrated" onclick="moodClicked(this)" style="color: blueviolet;" class="fa-regular fa-face-dizzy"></i>
-                    <i id="crying" onclick="moodClicked(this)" style="color: #d8d83a;" class="fa-regular fa-face-sad-tear"></i>
-                    <i id="upset" onclick="moodClicked(this)" style="color: purple;" class="fa-regular fa-face-tired"></i>
-                    <i id="annoyed" onclick="moodClicked(this)" style="color: darkgreen;" class="fa-regular fa-face-meh"></i>
-                    <i id="love" onclick="moodClicked(this)" style="color: #ffa1b1;" class="fa-regular fa-face-grin-hearts"></i>
-
+                    <div>
+                        <i id="angry" onclick="moodClicked(this)" style="margin-left: 0; color: red"
+                            class="fa-regular fa-face-angry"></i>
+                        <i id="happy" onclick="moodClicked(this)" style="color: #00be00"
+                            class="fa-regular fa-face-smile"></i>
+                        <i id="sad" onclick="moodClicked(this)" style="color: skyblue"
+                            class="fa-regular fa-face-frown"></i>
+                        <i id="frustrated" onclick="moodClicked(this)" style="color: blueviolet"
+                            class="fa-regular fa-face-dizzy"></i>
+                    </div>
+                    <div>
+                        <i id="crying" onclick="moodClicked(this)" style="margin-left: 0; color: #d8d83a"
+                            class="fa-regular fa-face-sad-tear"></i>
+                        <i id="upset" onclick="moodClicked(this)" style="color: purple"
+                            class="fa-regular fa-face-tired"></i>
+                        <i id="annoyed" onclick="moodClicked(this)" style="color: darkgreen"
+                            class="fa-regular fa-face-meh"></i>
+                        <i id="love" onclick="moodClicked(this)" style="color: #ffa1b1"
+                            class="fa-regular fa-face-grin-hearts"></i>
+                    </div>
                 </div>
                 <label for="title">Name Your Feeling</label>
-                <input type="text" id="title" placeholder="Enter title for your feelings">
+                <input type="text" id="title" placeholder="Enter title for your feelings" />
                 <label for="feelings">Express Your Feelings</label>
-                <textarea name="feelings" id="feelings" style="margin-bottom: 0;" cols="30" rows="5" placeholder="What are you feeling?"></textarea>
+                <textarea name="feelings" id="feelings" style="margin-bottom: 0" cols="30" rows="5"
+                    placeholder="What are you feeling?"></textarea>
                 <div><button class="btn">Share</button></div>
             </form>
         </section>
     </div>
 
     <script src="master.js"></script>
-
 </body>
+
 </html>
