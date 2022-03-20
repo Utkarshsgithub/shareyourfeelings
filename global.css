@@ -128,7 +128,7 @@ a {
 
 #mood p {
   font-size: 1rem;
-  color: rgb(71, 71, 71);
+  color: rgb(90, 90, 90);
 }
 
 #mood i {
@@ -324,7 +324,7 @@ a {
     line-height: 55px;
   }
   #spcl {
-    width: 300px;
+    width: 300;
   }
   .feeling-form input,
   .feeling-form textarea {
