@@ -128,12 +128,14 @@ a {
 
 #mood p {
   font-size: 1rem;
-  color: rgb(90, 90, 90);
+  color: rgb(180, 180, 180);
+  transition: color .2s ease-in-out;
 }
 
 #mood i {
   margin: 0 10px;
   cursor: pointer;
+  transition: color .2s ease-in-out;
 }
 
 .emoji {
@@ -266,7 +268,7 @@ a {
   .feeling-form textarea {
     width: 350px;
   }
-  .text p {
+  #spcl {
     width: 350px;
   }
 }
@@ -279,11 +281,14 @@ a {
   #spcl {
     width: 300;
   }
+  .feeling-form {
+    margin-right: 0;
+  }
   .feeling-form input,
   .feeling-form textarea {
     width: 320px;
   }
-  .text p {
+  #spcl {
     width: 320px;
   }
 }
@@ -291,10 +296,10 @@ a {
 @media only screen and (max-width: 400px) {
   .feeling-form input,
   .feeling-form textarea {
-    width: 320px;
+    width: 300px;
   }
-  .text p {
-    width: 320px;
+  #spcl {
+    width: 300px;
   }
 }
 
@@ -302,5 +307,16 @@ a {
   .main {
     margin: 0;
     padding: 50px 0;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  #spcl {
+    margin-right: 0;
+    width: 250px;
+  }
+  .feeling-form input,
+  .feeling-form textarea {
+    width: 250px;
   }
 }
